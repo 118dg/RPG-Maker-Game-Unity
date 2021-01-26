@@ -14,7 +14,7 @@ public class MovingObject : MonoBehaviour
     private Vector3 vector; //x,y,z좌표
 
     private BoxCollider2D boxCollider;
-    private LayerMask layerMask;
+    public LayerMask layerMask; //어떤 layer와 충돌했는지 판단
     private Animator animator;
 
     public float runSpeed;
@@ -24,6 +24,7 @@ public class MovingObject : MonoBehaviour
 
     void Start()
     {
+        boxCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
     }
 
@@ -69,6 +70,23 @@ public class MovingObject : MonoBehaviour
 
             animator.SetFloat("DirX", vector.x);
             animator.SetFloat("DirY", vector.y);
+
+            RaycastHit2D hit;
+            //A지점에서 B지점으로 레이저를 쐈을 때,
+            //레이저가 B지점까지 도달하면 hit = Null;
+            //레이저가 B지점까지 도달하지 못하고 방해받으면 hit = 방해불;
+
+            Vector2 start = transform.position; //A지점, 캐릭터의 현재 위치 값.
+            Vector2 end = start + new Vector2(vector.x * speed * walkCount, vector.y * speed * walkCount); //B지점, 캐릭터가 이동하고자 하는 위치 값.
+            //vector.x * speed * walkCount = 1 * 2.4 * 20 = 48 pixel
+
+            boxCollider.enabled = false; //레이저가 캐릭터 자기 자신의 boxCollider에 충돌되는 경우는 제외해야하므로 잠깐 끄기
+            hit = Physics2D.Linecast(start, end, layerMask);
+            boxCollider.enabled = true;
+
+            if (hit.transform != null) //벽이 있다면
+                break; //아래 내용 실행X.
+
             animator.SetBool("Walking", true); //걷는 모션으로 바꾸기
 
             //실제 이동이 이루어지는 부분
