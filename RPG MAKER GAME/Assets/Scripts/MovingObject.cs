@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
+    public string currentMapName; //transferMap 스크립트에 있는 transferMapName 변수의 값을 저장.
 
     public static MovingObject instance;
+    //static : 정적변수로서, 해당 스크립트가 적용된 모든 객체들은 static으로 선언된 변수의 값을 공유함.
 
     public float speed;
     public int walkCount;
@@ -24,8 +26,22 @@ public class MovingObject : MonoBehaviour
 
     void Start()
     {
-        boxCollider = GetComponent<BoxCollider2D>();
-        animator = GetComponent<Animator>();
+        //DontDestoryOnLoad 때문에 Player가 여러 개 생기는 현상 방지.
+        if(instance == null)
+        {
+            DontDestroyOnLoad(this.gameObject);
+            boxCollider = GetComponent<BoxCollider2D>();
+            animator = GetComponent<Animator>();
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+        //처음 생성된 경우에만 instance 값이 null.
+        //왜냐하면 생성된 이후에 this 값을 주었기 때문.
+        //그리고 나서, 해당 스크립트가 적용된 객체가 또 생성될 경우,
+        //static으로 값을 공유한 instance의 값이 this이기 때문에 그 객체는 삭제됨.
     }
 
     /*

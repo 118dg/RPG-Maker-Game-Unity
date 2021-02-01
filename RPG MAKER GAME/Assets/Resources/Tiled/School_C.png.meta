@@ -1,7 +1,643 @@
 fileFormatVersion: 2
 guid: a24e5a04992824a46961399a0cfcd795
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2715982420663090551
+    second: School_C_0
+  - first:
+      213: 1942147841276366995
+    second: School_C_1
+  - first:
+      213: -3041609648332853996
+    second: School_C_2
+  - first:
+      213: -3393496675836699739
+    second: School_C_3
+  - first:
+      213: 7867933580515336293
+    second: School_C_4
+  - first:
+      213: -9070438239084137598
+    second: School_C_5
+  - first:
+      213: 118276914974094390
+    second: School_C_6
+  - first:
+      213: 7780054820940511918
+    second: School_C_7
+  - first:
+      213: 517207512659006740
+    second: School_C_8
+  - first:
+      213: 5262766504487633542
+    second: School_C_9
+  - first:
+      213: 139902668172449686
+    second: School_C_10
+  - first:
+      213: 1807894026921647607
+    second: School_C_11
+  - first:
+      213: 9223195026731624056
+    second: School_C_12
+  - first:
+      213: 957558036885612741
+    second: School_C_13
+  - first:
+      213: 462080601321896815
+    second: School_C_14
+  - first:
+      213: 8377517375149602296
+    second: School_C_15
+  - first:
+      213: -6613901601585193800
+    second: School_C_16
+  - first:
+      213: 3684171419667030975
+    second: School_C_17
+  - first:
+      213: -8076612959416910026
+    second: School_C_18
+  - first:
+      213: -3419285771415006278
+    second: School_C_19
+  - first:
+      213: -9067871090152704539
+    second: School_C_20
+  - first:
+      213: 9019162548800764027
+    second: School_C_21
+  - first:
+      213: -9124034275537368742
+    second: School_C_22
+  - first:
+      213: -27958623869246249
+    second: School_C_23
+  - first:
+      213: 1820537532501347303
+    second: School_C_24
+  - first:
+      213: 8062275134588801912
+    second: School_C_25
+  - first:
+      213: 840057529266632065
+    second: School_C_26
+  - first:
+      213: -3181112483993811187
+    second: School_C_27
+  - first:
+      213: 6532524143471739890
+    second: School_C_28
+  - first:
+      213: -8480526485639688726
+    second: School_C_29
+  - first:
+      213: 1589506540302306740
+    second: School_C_30
+  - first:
+      213: 8798528557657331277
+    second: School_C_31
+  - first:
+      213: 4975389893927723594
+    second: School_C_32
+  - first:
+      213: -492286452373619177
+    second: School_C_33
+  - first:
+      213: -4671169150254349614
+    second: School_C_34
+  - first:
+      213: 9070937787194557119
+    second: School_C_35
+  - first:
+      213: 4051645381265770442
+    second: School_C_36
+  - first:
+      213: 3097997770599456094
+    second: School_C_37
+  - first:
+      213: 8393464107744365907
+    second: School_C_38
+  - first:
+      213: -8956236507150963635
+    second: School_C_39
+  - first:
+      213: -2085038004420423236
+    second: School_C_40
+  - first:
+      213: 6865460687404353434
+    second: School_C_41
+  - first:
+      213: -4525141839085869916
+    second: School_C_42
+  - first:
+      213: 1163142327128166871
+    second: School_C_43
+  - first:
+      213: 8418558101500395906
+    second: School_C_44
+  - first:
+      213: 2307524137054553677
+    second: School_C_45
+  - first:
+      213: 6761762400868134435
+    second: School_C_46
+  - first:
+      213: 1232085500807340760
+    second: School_C_47
+  - first:
+      213: -1721351240779736605
+    second: School_C_48
+  - first:
+      213: 7053781137105615830
+    second: School_C_49
+  - first:
+      213: -941894402771846580
+    second: School_C_50
+  - first:
+      213: 2240758392339466155
+    second: School_C_51
+  - first:
+      213: 1245894729543485112
+    second: School_C_52
+  - first:
+      213: -1458372091870828778
+    second: School_C_53
+  - first:
+      213: 4446650545645306570
+    second: School_C_54
+  - first:
+      213: 7114535317191549962
+    second: School_C_55
+  - first:
+      213: -2290169326523334790
+    second: School_C_56
+  - first:
+      213: -2896394971949474376
+    second: School_C_57
+  - first:
+      213: -2836348539271518633
+    second: School_C_58
+  - first:
+      213: -1423137924602354508
+    second: School_C_59
+  - first:
+      213: 2130871791473272549
+    second: School_C_60
+  - first:
+      213: 7338664033695345532
+    second: School_C_61
+  - first:
+      213: 5253365257222799717
+    second: School_C_62
+  - first:
+      213: 3114691167835556778
+    second: School_C_63
+  - first:
+      213: -973405555139526375
+    second: School_C_64
+  - first:
+      213: -5538539136678767705
+    second: School_C_65
+  - first:
+      213: 2776847001855710205
+    second: School_C_66
+  - first:
+      213: -3442078193667476497
+    second: School_C_67
+  - first:
+      213: 3478012327148250307
+    second: School_C_68
+  - first:
+      213: -567098273854937664
+    second: School_C_69
+  - first:
+      213: -5260319314867537005
+    second: School_C_70
+  - first:
+      213: 3196620985290364936
+    second: School_C_71
+  - first:
+      213: 3544902543264299955
+    second: School_C_72
+  - first:
+      213: 4064983296191098202
+    second: School_C_73
+  - first:
+      213: -6682698254094677581
+    second: School_C_74
+  - first:
+      213: 4162908751362546514
+    second: School_C_75
+  - first:
+      213: 604041663600663388
+    second: School_C_76
+  - first:
+      213: 7023746826834234228
+    second: School_C_77
+  - first:
+      213: -5922517142183129790
+    second: School_C_78
+  - first:
+      213: -451779831392267777
+    second: School_C_79
+  - first:
+      213: -5164267229059372366
+    second: School_C_80
+  - first:
+      213: -8919872093512243693
+    second: School_C_81
+  - first:
+      213: 10458390518536070
+    second: School_C_82
+  - first:
+      213: -8729933510786274444
+    second: School_C_83
+  - first:
+      213: 6231746027664897752
+    second: School_C_84
+  - first:
+      213: -2194355464575750231
+    second: School_C_85
+  - first:
+      213: 6963486731649571525
+    second: School_C_86
+  - first:
+      213: -4147855864317193151
+    second: School_C_87
+  - first:
+      213: -3240983716579082390
+    second: School_C_88
+  - first:
+      213: -5627487641730923203
+    second: School_C_89
+  - first:
+      213: 2686001252575310212
+    second: School_C_90
+  - first:
+      213: -8195970147054571913
+    second: School_C_91
+  - first:
+      213: 1259032884012085480
+    second: School_C_92
+  - first:
+      213: 4649729988445189380
+    second: School_C_93
+  - first:
+      213: -5117291549684340321
+    second: School_C_94
+  - first:
+      213: 8122566135707054971
+    second: School_C_95
+  - first:
+      213: -6906209251541500703
+    second: School_C_96
+  - first:
+      213: 5465956252037461223
+    second: School_C_97
+  - first:
+      213: 8261369614109462147
+    second: School_C_98
+  - first:
+      213: 1380813562473946499
+    second: School_C_99
+  - first:
+      213: -3638586971853338403
+    second: School_C_100
+  - first:
+      213: -7526203146038922382
+    second: School_C_101
+  - first:
+      213: -1227335169259930138
+    second: School_C_102
+  - first:
+      213: 7040497759572351716
+    second: School_C_103
+  - first:
+      213: -1879176253454375465
+    second: School_C_104
+  - first:
+      213: 1277346329063587455
+    second: School_C_105
+  - first:
+      213: 7298445870388232367
+    second: School_C_106
+  - first:
+      213: -5117228488489374129
+    second: School_C_107
+  - first:
+      213: -6144710630408595704
+    second: School_C_108
+  - first:
+      213: -7565091256642962245
+    second: School_C_109
+  - first:
+      213: 6972361344453512773
+    second: School_C_110
+  - first:
+      213: 1922141152424009877
+    second: School_C_111
+  - first:
+      213: 7530966428271886136
+    second: School_C_112
+  - first:
+      213: 8713827477879996510
+    second: School_C_113
+  - first:
+      213: -6869945194868497216
+    second: School_C_114
+  - first:
+      213: -2517492461837498595
+    second: School_C_115
+  - first:
+      213: -98636194624490478
+    second: School_C_116
+  - first:
+      213: -6012000807525720381
+    second: School_C_117
+  - first:
+      213: 2339749718325150279
+    second: School_C_118
+  - first:
+      213: 8974798997279581672
+    second: School_C_119
+  - first:
+      213: 3870277262248770828
+    second: School_C_120
+  - first:
+      213: 7142403998189530961
+    second: School_C_121
+  - first:
+      213: -8441068332847039301
+    second: School_C_122
+  - first:
+      213: -7314565613472310580
+    second: School_C_123
+  - first:
+      213: 8921770970575253653
+    second: School_C_124
+  - first:
+      213: 5927377158816838789
+    second: School_C_125
+  - first:
+      213: -1942675032347300224
+    second: School_C_126
+  - first:
+      213: 3716225321329887760
+    second: School_C_127
+  - first:
+      213: 935954367457390132
+    second: School_C_128
+  - first:
+      213: -1484087325497560260
+    second: School_C_129
+  - first:
+      213: 7406310829773467951
+    second: School_C_130
+  - first:
+      213: 3220799584275741225
+    second: School_C_131
+  - first:
+      213: -8283319897499910487
+    second: School_C_132
+  - first:
+      213: -7587978112654360082
+    second: School_C_133
+  - first:
+      213: -326745140289419445
+    second: School_C_134
+  - first:
+      213: 1217064237236013640
+    second: School_C_135
+  - first:
+      213: -3326290863377486837
+    second: School_C_136
+  - first:
+      213: -84755949731431660
+    second: School_C_137
+  - first:
+      213: -1225055879628993476
+    second: School_C_138
+  - first:
+      213: 6644468892421609575
+    second: School_C_139
+  - first:
+      213: 1835841989334640988
+    second: School_C_140
+  - first:
+      213: 4794816694013962862
+    second: School_C_141
+  - first:
+      213: 914704326134209230
+    second: School_C_142
+  - first:
+      213: -4863531021262843028
+    second: School_C_143
+  - first:
+      213: -2268871874736854445
+    second: School_C_144
+  - first:
+      213: 7730119073333705564
+    second: School_C_145
+  - first:
+      213: 8316144623217828948
+    second: School_C_146
+  - first:
+      213: -5193910821837848991
+    second: School_C_147
+  - first:
+      213: -4948018522161994346
+    second: School_C_148
+  - first:
+      213: -4956052691088384660
+    second: School_C_149
+  - first:
+      213: 160037844287505922
+    second: School_C_150
+  - first:
+      213: 725828049859944789
+    second: School_C_151
+  - first:
+      213: -6816527337598661399
+    second: School_C_152
+  - first:
+      213: -7370710036178500864
+    second: School_C_153
+  - first:
+      213: -7497157692964974663
+    second: School_C_154
+  - first:
+      213: -130268138257573073
+    second: School_C_155
+  - first:
+      213: 5688094489160025724
+    second: School_C_156
+  - first:
+      213: 866713997603997299
+    second: School_C_157
+  - first:
+      213: 4426417233865224974
+    second: School_C_158
+  - first:
+      213: 345728399736361283
+    second: School_C_159
+  - first:
+      213: 3650810586935511725
+    second: School_C_160
+  - first:
+      213: 2693786292825314016
+    second: School_C_161
+  - first:
+      213: -2924560786216733043
+    second: School_C_162
+  - first:
+      213: -5041211296108065025
+    second: School_C_163
+  - first:
+      213: 1733415738350348377
+    second: School_C_164
+  - first:
+      213: -9023178951287804552
+    second: School_C_165
+  - first:
+      213: 552159151776384524
+    second: School_C_166
+  - first:
+      213: -1249682022058842888
+    second: School_C_167
+  - first:
+      213: 2593842360610164678
+    second: School_C_168
+  - first:
+      213: -976170893946916183
+    second: School_C_169
+  - first:
+      213: -6041942980144108003
+    second: School_C_170
+  - first:
+      213: 6229852733578826901
+    second: School_C_171
+  - first:
+      213: -670875824875591716
+    second: School_C_172
+  - first:
+      213: 3450380899576697261
+    second: School_C_173
+  - first:
+      213: 8284872520101744523
+    second: School_C_174
+  - first:
+      213: -6080231964928125195
+    second: School_C_175
+  - first:
+      213: 2602174809896215245
+    second: School_C_176
+  - first:
+      213: -3329635718822258545
+    second: School_C_177
+  - first:
+      213: 4642107459307601928
+    second: School_C_178
+  - first:
+      213: -5255582603522726617
+    second: School_C_179
+  - first:
+      213: -8731320569707560997
+    second: School_C_180
+  - first:
+      213: -5090454938125437228
+    second: School_C_181
+  - first:
+      213: 8669392547660254891
+    second: School_C_182
+  - first:
+      213: 364151085587652948
+    second: School_C_183
+  - first:
+      213: -5625312742908098291
+    second: School_C_184
+  - first:
+      213: -7044270614012047571
+    second: School_C_185
+  - first:
+      213: -332153048572977889
+    second: School_C_186
+  - first:
+      213: 6888972505789177764
+    second: School_C_187
+  - first:
+      213: -3491040206079622209
+    second: School_C_188
+  - first:
+      213: 5109958592595414546
+    second: School_C_189
+  - first:
+      213: -911022538119283560
+    second: School_C_190
+  - first:
+      213: -769941998174216569
+    second: School_C_191
+  - first:
+      213: -4101432230264517933
+    second: School_C_192
+  - first:
+      213: 8456711716847491704
+    second: School_C_193
+  - first:
+      213: -6563628022418560809
+    second: School_C_194
+  - first:
+      213: 2061259223504935949
+    second: School_C_195
+  - first:
+      213: 3767205457736317220
+    second: School_C_196
+  - first:
+      213: 8589013373122012138
+    second: School_C_197
+  - first:
+      213: 2191613382880618070
+    second: School_C_198
+  - first:
+      213: -1462281007577156778
+    second: School_C_199
+  - first:
+      213: -814099203589434961
+    second: School_C_200
+  - first:
+      213: -2146920897455065932
+    second: School_C_201
+  - first:
+      213: 7660169195834023981
+    second: School_C_202
+  - first:
+      213: -329861206052285562
+    second: School_C_203
+  - first:
+      213: -5387318809531891234
+    second: School_C_204
+  - first:
+      213: 6379543313945909701
+    second: School_C_205
+  - first:
+      213: 6663738349837568370
+    second: School_C_206
+  - first:
+      213: -6393360195615258344
+    second: School_C_207
+  - first:
+      213: -394041125463566716
+    second: School_C_208
+  - first:
+      213: 2279858980933009332
+    second: School_C_209
+  - first:
+      213: -8802490343559497839
+    second: School_C_210
+  - first:
+      213: -3135571036441484402
+    second: School_C_211
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +677,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +709,1209 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: School_C_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982cb28d064ee4ad0800000000000000
+      internalID: -2715982420663090551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390d194fb25e3fa10800000000000000
+      internalID: 1942147841276366995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d28b5d3280ac5d0800000000000000
+      internalID: -3041609648332853996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abd84ab0c0e7e0d0800000000000000
+      internalID: -3393496675836699739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560ebf6c7e3803d60800000000000000
+      internalID: 7867933580515336293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28335429a745f1280800000000000000
+      internalID: -9070438239084137598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634f82e3a3434a100800000000000000
+      internalID: 118276914974094390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa793f93ae48fb60800000000000000
+      internalID: 7780054820940511918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41514331e7d7d2700800000000000000
+      internalID: 517207512659006740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6824fc3a04a190940800000000000000
+      internalID: 5262766504487633542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6975c874cb801f100800000000000000
+      internalID: 139902668172449686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd1732f90ee61910800000000000000
+      internalID: 1807894026921647607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876ec7e920f5fff70800000000000000
+      internalID: 9223195026731624056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8236016fde94d00800000000000000
+      internalID: 957558036885612741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bf363dbd3a96600800000000000000
+      internalID: 462080601321896815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5747daaabe24470800000000000000
+      internalID: 8377517375149602296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc902a0983b634a0800000000000000
+      internalID: -6613901601585193800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb366e8f26ec02330800000000000000
+      internalID: 3684171419667030975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f73ad1e4b1aef80800000000000000
+      internalID: -8076612959416910026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3d24105b14c80d0800000000000000
+      internalID: -3419285771415006278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5f9628943782280800000000000000
+      internalID: -9067871090152704539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78b6c47d808a2d70800000000000000
+      internalID: 9019162548800764027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a594b18ea2be06180800000000000000
+      internalID: -9124034275537368742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d46ddb97cbac9ff0800000000000000
+      internalID: -27958623869246249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb420d7d39d34910800000000000000
+      internalID: 1820537532501347303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87351a6e484f2ef60800000000000000
+      internalID: 8062275134588801912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18574de3fdb78ab00800000000000000
+      internalID: 840057529266632065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d070df0dc0b6ad3d0800000000000000
+      internalID: -3181112483993811187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3cb42091038aa50800000000000000
+      internalID: 6532524143471739890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed8723d71e1f4a80800000000000000
+      internalID: -8480526485639688726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd01eed6cf0f0610800000000000000
+      internalID: 1589506540302306740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d469b494b17aa1a70800000000000000
+      internalID: 8798528557657331277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_32
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4261ae6fb22c0540800000000000000
+      internalID: 4975389893927723594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_33
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e788e641c0b29f0800000000000000
+      internalID: -492286452373619177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d28351286cac2fb0800000000000000
+      internalID: -4671169150254349614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb246698bd172ed70800000000000000
+      internalID: 9070937787194557119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7c23af1065a3830800000000000000
+      internalID: 4051645381265770442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d5887fe8c4efa20800000000000000
+      internalID: 3097997770599456094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d0811b2239b7470800000000000000
+      internalID: 8393464107744365907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ca1e2595e05b380800000000000000
+      internalID: -8956236507150963635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1d4536bf47013e0800000000000000
+      internalID: -2085038004420423236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a974524de14074f50800000000000000
+      internalID: 6865460687404353434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4670bf8777331c0800000000000000
+      internalID: -4525141839085869916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d112bfa8cf442010800000000000000
+      internalID: 1163142327128166871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_44
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2810be86df9b4d470800000000000000
+      internalID: 8418558101500395906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46c6c31af8f50020800000000000000
+      internalID: 2307524137054553677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e6657041b96dd50800000000000000
+      internalID: 6761762400868134435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2e7803c3f391110800000000000000
+      internalID: 1232085500807340760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e955a7aa288c18e0800000000000000
+      internalID: -1721351240779736605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbf788529014e160800000000000000
+      internalID: 7053781137105615830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4afad2f708bde2f0800000000000000
+      internalID: -941894402771846580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_51
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba78ed2c2e5c81f10800000000000000
+      internalID: 2240758392339466155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b688fdc7ae4a4110800000000000000
+      internalID: 1245894729543485112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61722b92f42d2cbe0800000000000000
+      internalID: -1458372091870828778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_54
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac24c75ac1da5bd30800000000000000
+      internalID: 4446650545645306570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: School_C_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a046c233d28ebb260800000000000000
+      internalID: 7114535317191549962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
