@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 176659751}
   - component: {fileID: 176659752}
   m_Layer: 0
-  m_Name: bound (Scene)
+  m_Name: C bound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

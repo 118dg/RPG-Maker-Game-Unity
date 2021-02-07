@@ -9,6 +9,13 @@ public class MovingObject : MonoBehaviour
     public static MovingObject instance;
     //static : 정적변수로서, 해당 스크립트가 적용된 모든 객체들은 static으로 선언된 변수의 값을 공유함.
 
+    public string walkSound_1;
+    public string walkSound_2;
+    public string walkSound_3;
+    public string walkSound_4;
+
+    private AudioManager theAudio;
+
     public float speed;
     public int walkCount;
     private int currentWalkCount;
@@ -32,6 +39,7 @@ public class MovingObject : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
             boxCollider = GetComponent<BoxCollider2D>();
             animator = GetComponent<Animator>();
+            theAudio = FindObjectOfType<AudioManager>();
             instance = this;
         }
         else
@@ -104,6 +112,26 @@ public class MovingObject : MonoBehaviour
                 break; //아래 내용 실행X.
 
             animator.SetBool("Walking", true); //걷는 모션으로 바꾸기
+
+            //걷는 사운드
+
+            int temp = Random.Range(1, 4); //걷는 사운드 랜덤 선택
+            switch (temp)
+            {
+                case 1:
+                    theAudio.Play(walkSound_1);
+                    break;
+                case 2:
+                    theAudio.Play(walkSound_2);
+                    break;
+                case 3:
+                    theAudio.Play(walkSound_3);
+                    break;
+                case 4:
+                    theAudio.Play(walkSound_4);
+                    break;
+            }
+            theAudio.SetVolumn(walkSound_2, 0.5f); //사운드 크기 반으로 줄이기
 
             //실제 이동이 이루어지는 부분
             while (currentWalkCount < walkCount)
