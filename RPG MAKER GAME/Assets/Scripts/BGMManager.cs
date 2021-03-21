@@ -33,8 +33,19 @@ public class BGMManager : MonoBehaviour
 
     public void Play(int _playMusicTrack)
     {
+        source.volume = 1f;
         source.clip = clips[_playMusicTrack];
         source.Play();
+    }
+
+    public void SetVolumn(float _volumn)
+    {
+        source.volume = _volumn;
+    }
+
+    public void Pause()
+    {
+        source.Pause();
     }
 
     public void Stop()
