@@ -85,21 +85,9 @@ public class PlayerManager : MovingObject
             animator.SetFloat("DirX", vector.x);
             animator.SetFloat("DirY", vector.y);
 
-            RaycastHit2D hit;
-            //A지점에서 B지점으로 레이저를 쐈을 때,
-            //레이저가 B지점까지 도달하면 hit = Null;
-            //레이저가 B지점까지 도달하지 못하고 방해받으면 hit = 방해불;
-
-            Vector2 start = transform.position; //A지점, 캐릭터의 현재 위치 값.
-            Vector2 end = start + new Vector2(vector.x * speed * walkCount, vector.y * speed * walkCount); //B지점, 캐릭터가 이동하고자 하는 위치 값.
-            //vector.x * speed * walkCount = 1 * 2.4 * 20 = 48 pixel
-
-            boxCollider.enabled = false; //레이저가 캐릭터 자기 자신의 boxCollider에 충돌되는 경우는 제외해야하므로 잠깐 끄기
-            hit = Physics2D.Linecast(start, end, layerMask);
-            boxCollider.enabled = true;
-
-            if (hit.transform != null) //벽이 있다면
-                break; //아래 내용 실행X.
+            bool checkCollisionFlag = base.CheckCollision();
+            if (checkCollisionFlag) //앞에 뭐가 있으면
+                break; //밑에 문장 실행X
 
             animator.SetBool("Walking", true); //걷는 모션으로 바꾸기
 
