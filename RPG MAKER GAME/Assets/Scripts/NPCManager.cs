@@ -20,16 +20,17 @@ public class NPCManager : MovingObject
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(MoveCoroutine());
+        queue = new Queue<string>();
+        SetMove();
     }
 
     public void SetMove()
     {
-
+        StartCoroutine(MoveCoroutine());
     }
     public void SetNotMove()
     {
-
+        StopAllCoroutines();
     }
 
     IEnumerator MoveCoroutine()
@@ -37,26 +38,9 @@ public class NPCManager : MovingObject
         if(npc.direction.Length != 0)
         {
             for(int i = 0; i < npc.direction.Length; i++)
-            {
-                switch (npc.frequency) {
-                    case 1:
-                        yield return new WaitForSeconds(4f);
-                        break;
-                    case 2:
-                        yield return new WaitForSeconds(3f);
-                        break;
-                    case 3:
-                        yield return new WaitForSeconds(2f);
-                        break;
-                    case 4:
-                        yield return new WaitForSeconds(1f);
-                        break;
-                    case 5:
-                        break;
-                }
-
+            { 
                 //실질적인 이동 구간
-                yield return new WaitUntil(() => npcCanMove); //npcCanMove가 true가 될때까지 기다렸다가 true가 되는 순간(MovingObject의 Coroutine이 끝나는 순간 실행
+                yield return new WaitUntil(() => queue.Count < 2); //화살표 옆의 조건이 true가 될 때까지 기다렸다가 true가 되는 순간(MovingObject의 Coroutine이 끝나는 순간 실행
                 base.Move(npc.direction[i], npc.frequency);
 
                 if (i == npc.direction.Length - 1)

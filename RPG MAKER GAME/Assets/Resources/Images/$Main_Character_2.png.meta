@@ -3,42 +3,6 @@ guid: 2b3d3c13c40bf3e40b3606df121530e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: $Main_Character_2_0
-  - first:
-      213: 21300002
-    second: $Main_Character_2_1
-  - first:
-      213: 21300004
-    second: $Main_Character_2_2
-  - first:
-      213: 21300006
-    second: $Main_Character_2_3
-  - first:
-      213: 21300008
-    second: $Main_Character_2_4
-  - first:
-      213: 21300010
-    second: $Main_Character_2_5
-  - first:
-      213: 21300012
-    second: $Main_Character_2_6
-  - first:
-      213: 21300014
-    second: $Main_Character_2_7
-  - first:
-      213: 21300016
-    second: $Main_Character_2_8
-  - first:
-      213: 21300018
-    second: $Main_Character_2_9
-  - first:
-      213: 21300020
-    second: $Main_Character_2_10
-  - first:
-      213: 21300022
-    second: $Main_Character_2_11
-  - first:
       213: 874367018077699289
     second: $Main_Character_2_0
   - first:
@@ -116,8 +80,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.5, y: 0.05}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -131,7 +95,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -427,7 +391,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f511c55ff65b25d4f98892a44812d6a9
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

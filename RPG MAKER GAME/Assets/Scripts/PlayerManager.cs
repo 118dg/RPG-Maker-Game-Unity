@@ -21,15 +21,12 @@ public class PlayerManager : MovingObject
     private bool applyRunFlag = false;
     private bool canMove = true;
 
-    void Start()
+    private void Awake()
     {
         //DontDestoryOnLoad 때문에 Player가 여러 개 생기는 현상 방지.
         if (instance == null)
         {
             DontDestroyOnLoad(this.gameObject);
-            boxCollider = GetComponent<BoxCollider2D>();
-            animator = GetComponent<Animator>();
-            theAudio = FindObjectOfType<AudioManager>();
             instance = this;
         }
         else
@@ -40,6 +37,15 @@ public class PlayerManager : MovingObject
         //왜냐하면 생성된 이후에 this 값을 주었기 때문.
         //그리고 나서, 해당 스크립트가 적용된 객체가 또 생성될 경우,
         //static으로 값을 공유한 instance의 값이 this이기 때문에 그 객체는 삭제됨.
+    }
+
+    void Start()
+    {
+        queue = new Queue<string>();
+
+        boxCollider = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
+        theAudio = FindObjectOfType<AudioManager>();
     }
 
     /*
@@ -111,22 +117,34 @@ public class PlayerManager : MovingObject
             }
             theAudio.SetVolumn(walkSound_2, 0.5f); //사운드 크기 반으로 줄이기
 
+            boxCollider.offset = new Vector2(vector.x * 0.7f * speed * walkCount, vector.y * 0.7f * speed * walkCount);
+            //speed * walkCount = 48 (pixel) 이고
+            //움직이기 전에 움직이려는 방향으로 boxCollider를 48픽셀의 70%만큼 먼저 움직이는 것!
+
+
             //실제 이동이 이루어지는 부분
             while (currentWalkCount < walkCount)
             {
-                if (vector.x != 0)
-                {
-                    transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
-                }
-                else if (vector.y != 0)
-                {
-                    transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
-                }
+                transform.Translate(vector.x * (speed + applyRunSpeed), vector.y * (speed + applyRunSpeed), 0);
+                //if (vector.x != 0)
+                //{
+                //    transform.Translate(vector.x * (speed + applyRunSpeed), 0, 0);
+                //}
+                //else if (vector.y != 0)
+                //{
+                //    transform.Translate(0, vector.y * (speed + applyRunSpeed), 0);
+                //}
                 if (applyRunFlag) //shift 눌렀을 땐 두 칸씩 이동하도록 하기 위해 ++ 두 번 되게!
                 {
                     currentWalkCount++;
                 }
                 currentWalkCount++;
+
+                if (currentWalkCount == 12)
+                {
+                    boxCollider.offset = Vector2.zero;
+                    //boxCollider 원위치
+                }
 
                 yield return new WaitForSeconds(0.01f);
             }
