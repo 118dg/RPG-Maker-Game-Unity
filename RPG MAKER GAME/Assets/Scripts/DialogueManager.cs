@@ -35,6 +35,15 @@ public class DialogueManager : MonoBehaviour
     public Animator animSprite;
     public Animator animDialogueWindow;
 
+    public string typeSound;
+    public string enterSound;
+
+    private AudioManager theAudio;
+    private OrderManager theOrder;
+
+    public bool talking = false;
+    private bool keyActivated = false;
+
     //public bool talking;
 
     // Start is called before the first frame update
@@ -45,10 +54,16 @@ public class DialogueManager : MonoBehaviour
         listSentences = new List<string>();
         listSprites = new List<Sprite>();
         listDialogueWindows = new List<Sprite>();
+        theAudio = FindObjectOfType<AudioManager>();
+        theOrder = FindObjectOfType<OrderManager>();
     }
 
     public void showDialogue(Dialogue dialogue)
     {
+        talking = true;
+
+        theOrder.NotMove();
+
         for (int i = 0; i < dialogue.sentences.Length; i++)
         {
             listSentences.Add(dialogue.sentences[i]);
@@ -70,6 +85,9 @@ public class DialogueManager : MonoBehaviour
         listDialogueWindows.Clear();
         animSprite.SetBool("Appear", false);
         animDialogueWindow.SetBool("Appear", false);
+
+        talking = false;
+        theOrder.Move();
     }
 
     IEnumerator StartDialogueCoroutine()
@@ -110,9 +128,14 @@ public class DialogueManager : MonoBehaviour
             rendererSprite.GetComponent<SpriteRenderer>().sprite = listSprites[count];
         }
 
+        keyActivated = true;
         for (int i = 0; i < listSentences[count].Length; i++)
         {
             text.text += listSentences[count][i]; //listSentences[count] 문장의 한 글자씩 출력
+            if(i % 7 == 1)
+            {
+                theAudio.Play(typeSound);
+            }
             yield return new WaitForSeconds(0.01f); //한 글자씩 순서대로 출력하기 위해 약간의 딜레이
         }
     }
@@ -120,22 +143,27 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (talking & keyActivated)
         {
-            count++;
-            Debug.Log("count: " + count);
-            Debug.Log("listSentences.Count: " + listSentences.Count);
-            text.text = "";
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                keyActivated = false;
+                count++;
+                Debug.Log("count: " + count);
+                Debug.Log("listSentences.Count: " + listSentences.Count);
+                text.text = "";
+                theAudio.Play(enterSound);
 
-            if (count == listSentences.Count) //문장 끝까지 다 봤을 경우
-            {
-                StopAllCoroutines();
-                ExitDialogue();
-            }
-            else
-            {
-                StopAllCoroutines();
-                StartCoroutine(StartDialogueCoroutine());
+                if (count == listSentences.Count) //문장 끝까지 다 봤을 경우
+                {
+                    StopAllCoroutines();
+                    ExitDialogue();
+                }
+                else
+                {
+                    StopAllCoroutines();
+                    StartCoroutine(StartDialogueCoroutine());
+                }
             }
         }
     }

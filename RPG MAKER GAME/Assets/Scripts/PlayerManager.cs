@@ -21,6 +21,8 @@ public class PlayerManager : MovingObject
     private bool applyRunFlag = false;
     private bool canMove = true;
 
+    public bool notMove = false;
+
     private void Awake()
     {
         //DontDestoryOnLoad 때문에 Player가 여러 개 생기는 현상 방지.
@@ -66,7 +68,7 @@ public class PlayerManager : MovingObject
     {
         //걷고 coroutine으로 끊고를 반복하다보니 한 발로 걷는 것처럼 보이는 문제를 해결하기 위해 while문 추가.
         //걷고 coroutine으로 끊고 반복이 아니고, coroutine은 update에서 한 번만 실행되고 나머지 입력은 coroutine 내부의 while문에서 처리됨.
-        while (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
+        while (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0 && !notMove)
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -159,7 +161,7 @@ public class PlayerManager : MovingObject
     // Update is called once per frame
     void Update()
     {
-        if (canMove) //MoveCoroutine 함수가 여러 개 동시에 실행되는 것 방지
+        if (canMove && !notMove) //MoveCoroutine 함수가 여러 개 동시에 실행되는 것 방지
         {
             if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
             {

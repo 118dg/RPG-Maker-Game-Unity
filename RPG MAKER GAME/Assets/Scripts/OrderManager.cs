@@ -34,6 +34,16 @@ public class OrderManager : MonoBehaviour
         return tempList;
     }
 
+    public void NotMove()
+    {
+        thePlayer.notMove = true;
+    }
+
+    public void Move()
+    {
+        thePlayer.notMove = false;
+    }
+
     //npc 지정 경로로 움직이도록
     public void Move(string _name, string _dir)
     {
