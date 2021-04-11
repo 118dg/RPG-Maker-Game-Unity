@@ -19,7 +19,7 @@ public class TestDialogue : MonoBehaviour
     {
         if(collision.gameObject.name == "Player")
         {
-            theDM.showDialogue(dialogue);
+            theDM.ShowDialogue(dialogue);
         }
     }
 }
