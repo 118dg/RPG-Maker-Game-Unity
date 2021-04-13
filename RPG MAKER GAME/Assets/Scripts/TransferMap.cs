@@ -12,23 +12,34 @@ public class TransferMap : MonoBehaviour
 
     private PlayerManager thePlayer;
     private CameraManager theCamera;
+    private FadeManager theFade;
 
     // Start is called before the first frame update
     void Start()
     {
         theCamera = FindObjectOfType<CameraManager>();
         thePlayer = FindObjectOfType<PlayerManager>();
+        theFade = FindObjectOfType<FadeManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.name == "Player")
         {
-            thePlayer.currentMapName = transferMapName;
-            theCamera.SetBound(targetBound);
-
-            thePlayer.transform.position = target.transform.position; //맵 이동
-            theCamera.transform.position = new Vector3(target.transform.position.x, target.transform.position.y, theCamera.transform.position.z);
+            StartCoroutine(TransferCorouine());
         }
+    }
+
+    IEnumerator TransferCorouine()
+    {
+        theFade.FadeOut();
+
+        yield return new WaitForSeconds(1f);
+        thePlayer.currentMapName = transferMapName;
+        theCamera.SetBound(targetBound);
+
+        thePlayer.transform.position = target.transform.position; //맵 이동
+        theCamera.transform.position = new Vector3(target.transform.position.x, target.transform.position.y, theCamera.transform.position.z);
+        theFade.FadeIn();
     }
 }
