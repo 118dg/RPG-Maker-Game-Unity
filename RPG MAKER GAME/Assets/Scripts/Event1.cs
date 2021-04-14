@@ -10,6 +10,7 @@ public class Event1 : MonoBehaviour
     private DialogueManager theDM;
     private OrderManager theOrder;
     private PlayerManager thePlayer; //캐릭터가 위를 바라보고 있을 때 "DirY" == 1 (animator)
+    private FadeManager theFade;
 
     private bool flag;
 
@@ -18,6 +19,7 @@ public class Event1 : MonoBehaviour
         theDM = FindObjectOfType<DialogueManager>();
         theOrder = FindObjectOfType<OrderManager>();
         thePlayer = FindObjectOfType<PlayerManager>();
+        theFade = FindObjectOfType<FadeManager>();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -44,6 +46,8 @@ public class Event1 : MonoBehaviour
         theOrder.Move("player", "UP");
 
         yield return new WaitUntil(() => thePlayer.queue.Count == 0); //움직임이 끝날 때까지 기다리기
+
+        theFade.Flash();
 
         theDM.ShowDialogue(dialogue_2);
         yield return new WaitUntil(() => !theDM.talking);
