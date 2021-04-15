@@ -58,7 +58,6 @@ public class ChoiceManager : MonoBehaviour
             answer_Panel[i].SetActive(false);
         }
         question_Text.text = "";
-
     }
 
     public void ShowChoice(Choice _choice)
