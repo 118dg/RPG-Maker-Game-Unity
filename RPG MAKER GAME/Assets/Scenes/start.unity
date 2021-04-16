@@ -1673,6 +1673,7 @@ MonoBehaviour:
   var: []
   switch_name: []
   switches: 
+  itemList: []
 --- !u!1 &876652113
 GameObject:
   m_ObjectHideFlags: 0
