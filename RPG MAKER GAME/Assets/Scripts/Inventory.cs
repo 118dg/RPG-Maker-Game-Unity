@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
 {
     //public static Inventory instance;
 
-    //private DatabaseManager theDatabase;
+    private DatabaseManager theDatabase;
     private OrderManager theOrder;
     private AudioManager theAudio;
     //private OkOrCancel theOOC;
@@ -50,7 +50,7 @@ public class Inventory : MonoBehaviour
         //instance = this;
         theAudio = FindObjectOfType<AudioManager>();
         theOrder = FindObjectOfType<OrderManager>();
-        //theDatabase = FindObjectOfType<DatabaseManager>();
+        theDatabase = FindObjectOfType<DatabaseManager>();
         //theOOC = FindObjectOfType<OkOrCancel>();
 
         inventoryItemList = new List<Item>();
@@ -69,6 +69,8 @@ public class Inventory : MonoBehaviour
         inventoryItemList.Add(new Item(30002, "고대 유물의 조각 2", "반으로 쪼개진 고대 유물의 파편", Item.ItemType.Quest));
         inventoryItemList.Add(new Item(30003, "고대 유물", "고대 유적에 잠들어있던 고대의 유물", Item.ItemType.Quest));
     }
+
+    //public void GetAnItem(int _itemID, )
 
     public void RemoveSlot()
     {
