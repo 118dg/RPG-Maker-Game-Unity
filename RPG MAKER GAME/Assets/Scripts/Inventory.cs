@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour
     private DatabaseManager theDatabase;
     private OrderManager theOrder;
     private AudioManager theAudio;
-    //private OkOrCancel theOOC;
+    private OkOrCancel theOOC;
 
     public string key_sound;
     public string enter_sound;
@@ -30,7 +30,7 @@ public class Inventory : MonoBehaviour
 
     public GameObject go; // 인벤토리 활성화 비활성화.
     public GameObject[] selectedTabImages;
-    //public GameObject go_OOC; // 선택지 활성화 비활성화.
+    public GameObject go_OOC; // 선택지 활성화 비활성화.
 
     private int selectedItem; // 선택된 아이템.
     private int selectedTab; // 선택된 탭.
@@ -51,7 +51,7 @@ public class Inventory : MonoBehaviour
         theAudio = FindObjectOfType<AudioManager>();
         theOrder = FindObjectOfType<OrderManager>();
         theDatabase = FindObjectOfType<DatabaseManager>();
-        //theOOC = FindObjectOfType<OkOrCancel>();
+        theOOC = FindObjectOfType<OkOrCancel>();
 
         inventoryItemList = new List<Item>();
         inventoryTabList = new List<Item>();
@@ -344,11 +344,11 @@ public class Inventory : MonoBehaviour
                             {
                                 theAudio.Play(enter_sound);
                                 stopKeyInput = true;
-                                //StartCoroutine(OOCCoroutine("사용", "취소"));
+                                StartCoroutine(OOCCoroutine("사용", "취소"));
                             }
                             else if (selectedTab == 1)
                             {
-                                //StartCoroutine(OOCCoroutine("장착", "취소"));
+                                StartCoroutine(OOCCoroutine("장착", "취소"));
                             }
                             else // 비프음 출력
                             {
@@ -374,7 +374,6 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    /*
     IEnumerator OOCCoroutine(string _up, string _down)
     {
         theAudio.Play(enter_sound);
@@ -399,23 +398,24 @@ public class Inventory : MonoBehaviour
                         else
                             inventoryItemList.RemoveAt(i);
 
-                        // theAudio.Play() // 아이템 먹는 소리 출력.
+                        //theAudio.Play(); // 아이템 먹는 소리 출력. 내가 소리 넣어야 함.
 
                         ShowItem();
                         break;
                     }
                     else if (selectedTab == 1)
                     {
-                        theEquip.EquipItem(inventoryItemList[i]);
-                        inventoryItemList.RemoveAt(i);
-                        ShowItem();
-                        break;
+                        //장비 장착
+                        //theEquip.EquipItem(inventoryItemList[i]);
+                        //inventoryItemList.RemoveAt(i);
+                        //ShowItem();
+                        //break;
                     }
                 }
             }
         }
         stopKeyInput = false;
         go_OOC.SetActive(false);
-    }*/
+    }
 
 }

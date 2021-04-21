@@ -10,10 +10,10 @@ public class ItemPickup : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("item hit");
+        //Debug.Log("item hit");
         if (Input.GetKey(KeyCode.Z))
         {
-            Debug.Log("get Z key");
+            //Debug.Log("get Z key");
             AudioManager.instance.Play(pickUpSound);
             Inventory.instance.GetAnItem(itemID, _count);
             Destroy(this.gameObject);
