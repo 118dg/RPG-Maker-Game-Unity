@@ -5,14 +5,17 @@ using UnityEngine;
 public class ItemPickup : MonoBehaviour
 {
     public int itemID;
+    public int _count;
     public string pickUpSound;
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        Debug.Log("item hit");
+        if (Input.GetKey(KeyCode.Z))
         {
+            Debug.Log("get Z key");
             AudioManager.instance.Play(pickUpSound);
-            //인벤토리 추가.
+            Inventory.instance.GetAnItem(itemID, _count);
             Destroy(this.gameObject);
         }
     }

@@ -6,7 +6,7 @@ public class LightTest : MonoBehaviour
 {
     public GameObject go;
 
-    private bool flag;
+    private bool flag = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

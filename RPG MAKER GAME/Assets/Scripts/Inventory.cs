@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
-    //public static Inventory instance;
+    public static Inventory instance;
 
     private DatabaseManager theDatabase;
     private OrderManager theOrder;
@@ -47,7 +47,7 @@ public class Inventory : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //instance = this;
+        instance = this;
         theAudio = FindObjectOfType<AudioManager>();
         theOrder = FindObjectOfType<OrderManager>();
         theDatabase = FindObjectOfType<DatabaseManager>();
@@ -58,6 +58,7 @@ public class Inventory : MonoBehaviour
         slots = tf.GetComponentsInChildren<InventorySlot>();
 
         //아이템 데이터! 하드코딩!
+        /*
         inventoryItemList.Add(new Item(10001, "빨간 포션", "체력을 50 채워주는 마법의 물약", Item.ItemType.Use));
         inventoryItemList.Add(new Item(10002, "파란 포션", "마나를 15 회복시켜주는 기적의 물약", Item.ItemType.Use));
         inventoryItemList.Add(new Item(10003, "농축 빨간 포션", "체력을 350 회복시켜주는 기적의 농축 물약", Item.ItemType.Use));
@@ -68,9 +69,37 @@ public class Inventory : MonoBehaviour
         inventoryItemList.Add(new Item(30001, "고대 유물의 조각 1", "반으로 쪼개진 고대 유물의 파편", Item.ItemType.Quest));
         inventoryItemList.Add(new Item(30002, "고대 유물의 조각 2", "반으로 쪼개진 고대 유물의 파편", Item.ItemType.Quest));
         inventoryItemList.Add(new Item(30003, "고대 유물", "고대 유적에 잠들어있던 고대의 유물", Item.ItemType.Quest));
+        */
     }
 
-    //public void GetAnItem(int _itemID, )
+    public void GetAnItem(int _itemID, int _count = 1)
+    {
+        for(int i = 0; i < theDatabase.itemList.Count; i++) // 데이터베이스 아이템 검색.
+        {
+            if(_itemID == theDatabase.itemList[i].itemID) //데이터베이스에 아이템 발견.
+            {
+                for(int j = 0; j < inventoryItemList.Count; j++)
+                {
+                    if(inventoryItemList[j].itemID == _itemID) //소지품에 같은 아이템이 있는지 검색.
+                    {
+                        if(inventoryItemList[i].itemType == Item.ItemType.Use) //소모품이면 (Use)
+                        {
+                            inventoryItemList[j].itemCount += _count; // 소지품에 같은 아이템이 있다 -> 개수만 증감시켜줌.
+                        }
+                        else //소모품말고 딴 종류면
+                        {
+                            inventoryItemList.Add(theDatabase.itemList[i]); //개수말고 아이템 직접 추가.
+                        }
+                        return;
+                    }
+                } //없던 거면
+                inventoryItemList.Add(theDatabase.itemList[i]); // 소지품에 해당 아이템 추가.
+                inventoryItemList[inventoryItemList.Count - 1].itemCount = _count; //part 25.5
+                return;
+            }
+        }
+        Debug.LogError("데이터베이스에 해당 ID갓을 가진 아이템이 존재하지 않습니다."); //데이터베이스에 아이템 ID 없음.
+    }
 
     public void RemoveSlot()
     {
