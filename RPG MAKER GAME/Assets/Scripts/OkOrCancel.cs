@@ -76,17 +76,17 @@ public class OkOrCancel : MonoBehaviour
             {
                 Selected();
             }
-            else if (Input.GetKeyDown(KeyCode.DownArrow))
+            else if (Input.GetKeyDown(KeyCode.UpArrow))
             {
                 Selected();
             }
-            else if (Input.GetKeyDown(KeyCode.DownArrow))
+            else if (Input.GetKeyDown(KeyCode.Z))
             {
                 theAudio.Play(enter_sound);
                 keyInput = false;
                 activated = false;
             }
-            else if (Input.GetKeyDown(KeyCode.DownArrow))
+            else if (Input.GetKeyDown(KeyCode.X))
             {
                 theAudio.Play(enter_sound);
                 keyInput = false;

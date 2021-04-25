@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class ChoiceManager : MonoBehaviour
 {
-
     public static ChoiceManager instance;
 
     #region Singleton
